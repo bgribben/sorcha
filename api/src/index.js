@@ -7,7 +7,7 @@ const formidable = require('formidable');
 const { getLGChannel, saveLGChannel } = require('./channels');
 
 const app = express();
-const port = 8081;
+const port = process.env.PORT || 8081;
 
 app.use(bodyParser.json({ limit: '1mb' }));
 
