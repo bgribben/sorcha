@@ -1,0 +1,22 @@
+{
+  "name": "sorcha",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start-web": "cd web && serve -s build",
+    "start-api": "cd api && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgribben/sorcha.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bgribben/sorcha/issues"
+  },
+  "homepage": "https://github.com/bgribben/sorcha#readme",
+  "dependencies": {
+    "serve": "^11.0.2"
+  }
+}
