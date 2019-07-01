@@ -1,1 +1,1 @@
-web: cd web && serve -s build
+web: npm install -g server && cd web && serve -s build
